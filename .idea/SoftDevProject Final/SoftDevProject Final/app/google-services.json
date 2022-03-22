@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "446164206430",
+    "firebase_url": "https://buddychatroom-fe9ce-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "buddychatroom-fe9ce",
+    "storage_bucket": "buddychatroom-fe9ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446164206430:android:fa3051a4d26738f48285cf",
+        "android_client_info": {
+          "package_name": "be.kuleuven.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446164206430-mhg6ptvd787ecop64elqqcpobmn018jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8g0l68s_yn9AhSOppHbhr4KyrOFy7_c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446164206430-mhg6ptvd787ecop64elqqcpobmn018jh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

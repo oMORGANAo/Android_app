@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseOptions">
+
+    <Button
+        android:id="@+id/goToCreate"
+        android:layout_width="202dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="99dp"
+        android:text="Create Study Session"
+        app:layout_constraintEnd_toEndOf="@+id/goToViewSession"
+        app:layout_constraintStart_toStartOf="@+id/goToViewSession"
+        app:layout_constraintTop_toBottomOf="@+id/goToChat" />
+
+    <Button
+        android:id="@+id/goToViewSession"
+        android:layout_width="202dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="171dp"
+        android:text="View Study Sessions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/goToChat"
+        android:layout_width="202dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="118dp"
+        android:text="Chat"
+        app:layout_constraintEnd_toEndOf="@+id/goToCreate"
+        app:layout_constraintStart_toStartOf="@+id/goToCreate"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
